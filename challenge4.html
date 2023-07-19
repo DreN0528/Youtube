@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<button class="stretch">Stretch</button>
+	<button class="shadow">Shadow</button>
+	<p></p>
+	<p></p>
+	<button class="number">One</button>
+	<button class="number">Two</button>
+	<button class="number">Three</button>
+	
+	<style>
+		.stretch
+		{
+			font-size: 25px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 20px;
+			padding-right: 20px;
+			border: none;
+			color: white;
+			background-color: green;
+			cursor: pointer;
+			margin-right: 10px;
+			transition: padding-top 01s, padding-bottom 1s, padding-left 1s, padding-right 1s;
+			vertical-align: top;
+		}
+		.stretch:hover
+		{
+			padding-top: 50px;
+			padding-bottom: 50px;
+			padding-left: 100px;
+			padding-right: 100px;
+		}
+
+		.shadow
+		{
+			font-size: 25px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 20px;
+			padding-right: 20px;
+			border: none;
+			color: white;
+			background-color: green;
+			box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+			cursor: pointer;
+			vertical-align: top;
+			margin-right: 50px;
+		}
+		.shadow:active
+		{
+			margin-top: 3px;
+			margin-left: 3px;
+			box-shadow: none;
+		}
+
+		.number
+		{
+			font-size: 25px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 20px;
+			padding-right: 20px;
+			border: none;
+			color: white;
+			background-color: green;
+			cursor: pointer;
+			margin-left: 10px;
+			margin-right: 10px;
+			transition: padding 0.4s, margin 0.4s;
+		}
+		.number:hover
+		{
+			padding-left: 30px;
+			padding-right: 30px;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+	</style>
+</html>
